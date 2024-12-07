@@ -13,41 +13,42 @@ export class Vehiculo {
         this.patente = patente;
     }
 
-    getTipo(): string {
+    public getTipo(): string {
         return this.tipo;
     }
-    getMarca(): string {
+    public getMarca(): string {
         return this.marca;
     }
 
-    getModelo(): string {
+    public getModelo(): string {
         return this.modelo;
     }
 
-    getAño(): number {
+    public getAño(): number {
         return this.año;
     }
     
-    getPatente(): string {
+    public getPatente(): string {
         return this.patente;
     }
     
-    setTipo(nuevoTipo: string) {
+    public setTipo(nuevoTipo: string) {
         this.tipo = nuevoTipo;
     }
     
-    setMarca(nuevaMarca: string) {
+    public setMarca(nuevaMarca: string) {
             this.marca = nuevaMarca;
           }
         
-    setModelo(nuevoModelo: string) {
+    public setModelo(nuevoModelo: string) {
             this.modelo = nuevoModelo;
           }
-    setAño(nuevoAño: number) {
+
+    public setAño(nuevoAño: number) {
             this.año = nuevoAño;
           }
     
-    setPatente(nuevaPatente: string){
+    public setPatente(nuevaPatente: string){
             this.patente = nuevaPatente;
         }
-    }
+}
